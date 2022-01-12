@@ -1,9 +1,7 @@
 import blogsList from '../data/blogsList';
 import { createSlice } from '@reduxjs/toolkit';
 
-const initialState = {
-  blogs: blogsList,
-};
+const initialState = blogsList;
 
 const blogsSlice = createSlice({
   name: 'blogs',

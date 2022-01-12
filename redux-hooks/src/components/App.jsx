@@ -8,7 +8,7 @@ function App() {
   // hook that comes from react redux and gets a function.
   //The function accepts the state (what store) as an argument
   //and what we return from the function will be stored for us in the variable we defined.
-  const blogs = useSelector(({ blogs }) => blogs.blogs);
+  const blogs = useSelector(({ blogs }) => blogs);
 
   return (
     <div className='App'>

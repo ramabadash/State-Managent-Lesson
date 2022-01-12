@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 
 function AdvicesList() {
   /***** STATES *****/
-  const advices = useSelector(({ advices }) => advices.advices);
+  const advices = useSelector(({ advices }) => advices);
 
   return (
     <div>
