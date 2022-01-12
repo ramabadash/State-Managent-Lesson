@@ -23,6 +23,7 @@ function AdvicesList() {
           dispatch(addAdvice({ advice: data.slip.advice }));
         })
         .catch(error => {
+          // TODO - Add like failure action and dispatch
           console.log(error);
         });
     };
