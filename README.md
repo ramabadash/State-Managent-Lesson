@@ -92,3 +92,5 @@
 #### 10 Add API request and dispatch on click
 
 ##### 🔗 API LINK [adviceslip](https://api.adviceslip.com/#top)
+
+##### 🔗 [Understanding Asynchronous Redux Actions with Redux Thunk](https://www.digitalocean.com/community/tutorials/redux-redux-thunk)
