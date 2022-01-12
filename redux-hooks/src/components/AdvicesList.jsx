@@ -32,7 +32,7 @@ function AdvicesList() {
     <div>
       <h1>Good to know:</h1>
       <button onClick={() => dispatch(fetchAdvice())}>
-        Give me more advice 💡
+        Give me one more advice 💡
       </button>
       <ul>
         {advices.length ? (
