@@ -1,5 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import AdvicesList from './AdvicesList';
+// Components
 
 function App() {
   /***** STATES *****/
@@ -19,6 +21,7 @@ function App() {
           </p>
         </div>
       ))}
+      <AdvicesList />
     </div>
   );
 }
