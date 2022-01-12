@@ -35,7 +35,12 @@ function AdvicesList() {
       </button>
       <ul>
         {advices.length ? (
-          advices.map(advice => <li key={advice}>{advice}</li>)
+          advices.map(advice => (
+            <li key={advice}>
+              {' '}
+              💡 <em>{advice}</em> 💡
+            </li>
+          ))
         ) : (
           <p style={{ color: 'red' }}>Empty List ¯\_(ツ)_/¯</p>
         )}
