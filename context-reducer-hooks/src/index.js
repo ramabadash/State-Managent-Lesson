@@ -8,10 +8,10 @@ import App from './components/App';
 import './index.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <MainProvider>
-      <App />
-    </MainProvider>
-  </React.StrictMode>,
+  // <React.StrictMode>
+  <MainProvider>
+    <App />
+  </MainProvider>,
+  //</React.StrictMode>,
   document.getElementById('root')
 );
