@@ -11,7 +11,10 @@ function AdvicesList() {
   // Dispatch
   const dispatch = useDispatch();
 
-  // Async Fetch weather request
+  // Async Fetch advice request
+  // A function that returns a function. ** YOU NEED TO DISPATCH THIS FUNCTION **
+  //The returned function accepts as an argument the dispatch function -
+  //within it we make asynchronous requests and we can make a dispatch for the action we want to activate.
   const fetchAdvice = () => {
     return dispatch => {
       axios
